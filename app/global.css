@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    h1 {
+      @apply text-5xl;
+    }
+    h2 {
+      @apply text-4xl;
+    }
+    /* ... */
+  }
+
+@layer components {
+    .card {
+      width: 25rem;
+      height:20rem;
+      color:theme('colors.white');
+      background-color:theme('colors.orange');
+      border-radius: theme('borderRadius.4xl');
+      padding: theme('spacing.6');
+      box-shadow: theme('boxShadow.xl');
+    }
+
+    .card:hover{
+        background-color:theme('colors.dark-orange');
+
+    }
+    /* ... */
+} 
