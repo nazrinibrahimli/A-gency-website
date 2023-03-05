@@ -21,25 +21,24 @@ import { spacing } from '@mui/system';
 
 const Numbers = () => {
   return (
-        <Box sx={{ flexGrow: 1 }} className="mt-[4rem] mx-[8rem] px-[5rem] py-[3rem] rounded-xl  bg-[#f5f6f7] ">
-          <h1 className='text-center text-blue pt-[2rem] font-extralight'>The  <span className='text-orange underline'>Product</span> we work with </h1>
+        <Box sx={{ flexGrow: 1 }} className="mt-[4rem] lg:mx-[8rem] px-[1rem]  md:px-[5rem] py-[3rem] rounded-xl  bg-[#f5f6f7] ">
+          <h1 className='text-center text-gray-dark pt-[2rem] font-extralight'>The product we work with </h1>
           <Grid container spacing={2} className="py-[3.5rem]">
-                  
-      <Grid item xs={12} lg={4} >
-       <Card className=" mx-auto rounded-xl border-[0.1rem] shadow-none border-blue hover:border-orange py-[3rem]">
-      <CardContent>
-          <CardMedia sx={{display: 'flex', alignItems: 'center', justifyContent:"center"}} >
-          <LiveHelpIcon sx={{fontSize:55,mb:3 }} style={{ color: "blue", }} />
-         </CardMedia>
-        <Typography gutterBottom variant="h5" component="div" className='font-serif text-center text-blue'>
-          24/7 Support
-        </Typography>
-        <Typography variant="body1" color="" className='font-sans text-center'>
-        A'gency provides 24/7 support to all customers all around the world! 
-               </Typography>
-      </CardContent>
-    </Card>
-        </Grid>
+             <Grid item xs={12} lg={4} >
+            <Card className="mx-auto rounded-xl border-[0.1rem] shadow-none border-blue hover:border-orange py-[3rem]">
+             <CardContent>
+                <CardMedia sx={{display: 'flex', alignItems: 'center', justifyContent:"center"}} >
+                <LiveHelpIcon sx={{fontSize:55,mb:3 }} style={{ color: "blue", }} />
+              </CardMedia>
+              <Typography gutterBottom variant="h5" component="div" className='font-serif text-center text-blue'>
+                24/7 Support
+              </Typography>
+              <Typography variant="body1" color="" className='font-sans text-center'>
+              A'gency provides 24/7 support to all customers all around the world! 
+                    </Typography>
+            </CardContent>
+            </Card>
+           </Grid>
 
      <Grid item xs={12} lg={4}>
     <Card  className="mx-auto rounded-xl border-[0.1rem] shadow-none border-orange hover:border-blue py-[3rem]">

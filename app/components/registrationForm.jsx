@@ -4,7 +4,7 @@ import { FormControl,InputLabel,Input, FormHelperText, TextField,Button} from '@
 
 const RegistrationForm = () => {
   return (
-    <div className='bg-[white] w-[18rem] h-[24rem] rounded-md py-[3rem] px-[2rem]'>
+    <div className='bg-[white] w-[22rem] h-[24rem] rounded-md py-[3rem] px-[2rem]'>
       <FormControl fullWidth color=''>
         <TextField
           required
@@ -19,9 +19,8 @@ const RegistrationForm = () => {
           label="Email"
           type="text"
           autoComplete="current-password"
-          className='mt-2'
+          className='my-2'
         />
-        <FormHelperText id="my-helper-text">we'll never share your email</FormHelperText>
         <TextField
           required
           id="outlined-required"
@@ -29,7 +28,7 @@ const RegistrationForm = () => {
           type="password"
           autoComplete="current-password"
         />
-        <Button variant="contained" className='mt-2 w-full flex font-sans bg-blue rounded-md h-[3rem] hover:bg-gray-dark shadow-none'>Sign up</Button>
+        <Button variant="contained" className='mt-2 w-full flex font-sans bg-blue rounded-md h-[3rem] hover:bg-gray-dark shadow-none'>register now</Button>
       </FormControl>
     </div>
   )

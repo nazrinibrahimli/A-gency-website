@@ -33,14 +33,14 @@ export default function Services(){
             <Box sx={{ flexGrow: 1 }} >
               <Grid container spacing={4}>
                 <Grid item sm={12} md={6} lg={3} sx={{justifyContent:"center", display:"flex"}}>
-                <Card sx={{ maxWidth: 345, height:600 }} className="card hovered">
+                <Card sx={{ maxWidth: 345, height:600 }} className="card text-center">
                 <CardMedia sx={{display: 'flex', alignItems: 'center', justifyContent:"center"}} >
                     <SettingsOutlinedIcon sx={{fontSize:55,mb:3 }} style={{ color: "#273444", }} /></CardMedia>
                 <CardContent>
-                  <Typography gutterBottom variant="h6" component="div">
+                  <Typography gutterBottom variant="h6" component="div" sx={{textAlign:"center"}}>
                   AI Solutions
                   </Typography>
-                  <Typography variant="body3" color="" className='text-lg font-sans '>
+                  <Typography variant="body3" color="" className='text-lg font-sans ' >
                     Lizards are a widespread group of squamate reptiles, 
                   </Typography>
                 </CardContent>
@@ -48,28 +48,28 @@ export default function Services(){
                 </Grid>
 
                    <Grid item sm={12} md={6} lg={3} sx={{justifyContent:"center", display:"flex"}} >
-                   <Card sx={{ maxWidth: 345 }} className="card" >
+                   <Card sx={{ maxWidth: 345 }} className="card text-center" >
                       <CardMedia sx={{display: 'flex', alignItems: 'center', justifyContent:"center"}} >
                        <VpnLockOutlinedIcon sx={{fontSize:55,mb:3 }} style={{ color: "darkRed", }} /></CardMedia>
                       <CardContent>
-                        <Typography gutterBottom variant="h6" component="div">
+                        <Typography gutterBottom variant="h6" component="div" sx={{textAlign:"center"}}>
                         Cybersecurity
                         </Typography>
-                        <Typography variant="body3" color="" className='text-lg font-sans '>
+                        <Typography variant="body3" color="" className='text-lg font-sans'>
                           Lizards are a widespread group of squamate reptiles, wit
                         </Typography>
                       </CardContent>
                   </Card> 
                    </Grid>
                    <Grid item sm={12} md={6} lg={3} sx={{justifyContent:"center", display:"flex"}}>
-                   <Card sx={{ maxWidth: 345 }} className="card">
+                   <Card sx={{ maxWidth: 345 }} className="card text-center">
                    <CardMedia sx={{display: 'flex', alignItems: 'center', justifyContent:"center"}} >
                     <SecurityUpdateGoodOutlinedIcon sx={{fontSize:55,mb:3 }} style={{ color: "darkGreen", }} /></CardMedia>
                       <CardContent >
-                        <Typography gutterBottom variant="h6" component="div">
+                        <Typography gutterBottom variant="h6" component="div" sx={{textAlign:"center"}}>
                           Mobile Development
                         </Typography>
-                        <Typography variant="body3" color="" className='text-lg font-sans '>
+                        <Typography variant="body3" color="" className='text-lg font-sans' >
                           Lizards are a widespread group of squamate reptiles, 
                         </Typography>
                       </CardContent>
@@ -77,14 +77,14 @@ export default function Services(){
                   </Grid>
 
                   <Grid item sm={12} md={6} lg={3} sx={{justifyContent:"center", display:"flex"}}>
-                   <Card sx={{ maxWidth: 345 }} className="card">
+                   <Card sx={{ maxWidth: 345 }} className="card text-center">
                    <CardMedia sx={{display: 'flex', alignItems: 'center', justifyContent:"center"}} >
                     <TravelExploreOutlinedIcon sx={{fontSize:55,mb:3 }} style={{ color: "darkBlue", }} /></CardMedia>
                     <CardContent >
-                      <Typography gutterBottom variant="h6" component="div" >
+                      <Typography gutterBottom variant="h6" component="div" sx={{textAlign:"center"}}>
                         Sotware Consulting
                       </Typography>
-                      <Typography variant="body3" color="" className='text-lg font-sans '>
+                      <Typography variant="body3" color="" className='text-lg font-sans'>
                         Lizards are a widespread group of squamate reptiles, 
                       </Typography>
                     </CardContent>
@@ -93,14 +93,14 @@ export default function Services(){
 
 
                   <Grid item sm={12} md={6} lg={3} sx={{justifyContent:"center", display:"flex"}}>
-                   <Card sx={{ maxWidth: 345 }} className="card">
+                   <Card sx={{ maxWidth: 345 }} className="card text-center">
                    <CardMedia sx={{display: 'flex', alignItems: 'center', justifyContent:"center"}} >
                     <SettingsOutlinedIcon sx={{fontSize:55,mb:3 }} style={{ color: "#d45124", }} /></CardMedia>
                     <CardContent >
-                      <Typography gutterBottom variant="h6" component="div" >
+                      <Typography gutterBottom variant="h6" component="div" sx={{textAlign:"center"}} >
                         Web Development
                       </Typography>
-                      <Typography variant="body3" color="" className='text-lg font-sans '>
+                      <Typography variant="body3" color="" className='text-lg font-sans'>
                         Lizards are a widespread group of squamate reptiles, 
                       </Typography>
                     </CardContent>
@@ -108,14 +108,14 @@ export default function Services(){
                   </Grid>
 
                   <Grid item sm={12} md={6} lg={3} sx={{justifyContent:"center", display:"flex"}}>
-                   <Card sx={{ maxWidth: 345 }} className="card">
+                   <Card sx={{ maxWidth: 345 }} className="card text-center">
                    <CardMedia sx={{display: 'flex', alignItems: 'center', justifyContent:"center"}} >
                     <CloudDoneIcon sx={{fontSize:55,mb:3 }} style={{ color: "blue", }} /></CardMedia>
                     <CardContent >
-                      <Typography gutterBottom variant="h6" component="div" >
+                      <Typography gutterBottom variant="h6" component="div" sx={{textAlign:"center"}}>
                         Cloud Services
                       </Typography>
-                      <Typography variant="body3" color="" className='text-lg font-sans '>
+                      <Typography variant="body3" color="" className='text-lg font-sans'>
                         Lizards are a widespread group of squamate reptiles, 
                       </Typography>
                     </CardContent>
@@ -123,14 +123,14 @@ export default function Services(){
                   </Grid>
 
                   <Grid item sm={12} md={6} lg={3} sx={{justifyContent:"center", display:"flex"}}>
-                   <Card sx={{ maxWidth: 345 }} className="card">
+                   <Card sx={{ maxWidth: 345 }} className="card text-center">
                    <CardMedia sx={{display: 'flex', alignItems: 'center', justifyContent:"center"}} >
                     <VisibilityOutlinedIcon sx={{fontSize:55,mb:3 }} style={{ color: "orange", }} /></CardMedia>
                     <CardContent >
-                      <Typography gutterBottom variant="h6" component="div" >
+                      <Typography gutterBottom variant="h6" component="div" sx={{textAlign:"center"}}>
                         CEO
                       </Typography>
-                      <Typography variant="body3" color="" className='text-lg font-sans '>
+                      <Typography variant="body3" color="" className='text-lg font-sans'>
                         Lizards are a widespread group of squamate reptiles, with 
                       </Typography>
                     </CardContent>
@@ -139,14 +139,14 @@ export default function Services(){
 
 
                   <Grid item sm={12} md={6} lg={3} sx={{justifyContent:"center", display:"flex"}}>
-                   <Card sx={{ maxWidth: 345 }} className="card">
+                   <Card sx={{ maxWidth: 345 }} className="card text-center">
                    <CardMedia sx={{display: 'flex', alignItems: 'center', justifyContent:"center"}} >
                     <RecordVoiceOverOutlinedIcon sx={{fontSize:55,mb:3 }}  style={{ color: "blue", }} /></CardMedia>
                     <CardContent >
-                      <Typography gutterBottom variant="h6" component="div" >
+                      <Typography gutterBottom variant="h6" component="div" sx={{textAlign:"center"}}>
                         Marketing
                       </Typography>
-                      <Typography variant="body3" color="" className='text-lg font-sans '>
+                      <Typography variant="body3" color="" className='text-lg font-sans' >
                         Lizards are a widespread group of squamate reptiles, 
                       </Typography>
                     </CardContent>

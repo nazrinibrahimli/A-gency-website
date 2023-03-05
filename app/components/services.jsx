@@ -18,16 +18,16 @@ import Link from '@mui/material/Link';
 const Numbers = () => {
   return (
       // <div className="flex  my-[10rem] ">
-      <div className=' bg-[#f0f0f5] rounded-xl mx-[3rem] pb-[3rem]'>
-        <Box sx={{ flexGrow: 1 }} className="mt-[7rem] mx-[2rem] rounded-xl  ">
-          <h1 className='text-center text-blue  pt-[5rem] font-extralight'> <span className='text-orange underline'>Services</span> we provide</h1>
+      <div className='rounded-xl mx-[3rem] pb-[3rem]'>
+        <Box sx={{ flexGrow: 1 }} className=" mx-[2rem] rounded-xl  ">
+          <h1 className='text-center text-gray-dark  pt-[5rem] font-extralight'> Services we provide</h1>
           <Grid container spacing={2} className="py-[3.5rem]">
                   
       <Grid item xs={12} md={6} lg={3} className="">
-       <Card  sx={{ maxWidth: 350,maxHeight: 590, borderRadius: 5 , }} elevation={0} className="transitioned-card mx-auto rounded-xl">
+       <Card  sx={{ maxWidth: 350,maxHeight: 590, borderRadius: 5 , }}  className="transitioned-card mx-auto">
       <CardMedia
         sx={{ height: 180 }}
-        image="/static/cooperation-1.jpeg"
+        image="/static/ai.jpg"
         title="green iguana"
       />
       <CardContent sx={{mx:2, mb:3}}>
@@ -35,7 +35,7 @@ const Numbers = () => {
           AI Solutions
         </Typography>
         <Typography variant="body1" color="" className='font-sans'>
-          Lizards are a widespread group of squamate reptiles.
+          Lizards are a widespread group of squamate
         </Typography>
       </CardContent>
       <CardActions sx={{mx:2, mb:3}}>
@@ -47,7 +47,7 @@ const Numbers = () => {
         </Grid>
 
             <Grid item xs={12} md={6} lg={3}>
-            <Card sx={{ maxWidth: 350,maxHeight: 590,borderRadius: 5 ,}} elevation={0} className="transitioned-card mx-auto rounded-xl ">
+            <Card sx={{ maxWidth: 350,maxHeight: 590,borderRadius: 5 ,}} className="transitioned-card mx-auto">
       <CardMedia
         sx={{ height: 180 }}
         image="/static/cyber.jpg"
@@ -58,7 +58,7 @@ const Numbers = () => {
           Cyber Security 
         </Typography>
         <Typography variant="body1" color="" className='font-sans'>
-          Lizards are a widespread group of squamate reptiles.
+          Lizards are a widespread group of squamate
         </Typography>
       </CardContent>
       <CardActions  sx={{mx:2, mb:3}}>
@@ -73,18 +73,19 @@ const Numbers = () => {
 
 
         <Grid item xs={12} md={6} lg={3}>
-       <Card sx={{ maxWidth: 350,maxHeight: 590,borderRadius: 5 ,}} elevation={0} className="transitioned-card mx-auto rounded-xl ">
-      <CardMedia
+       <Card sx={{ maxWidth: 350,maxHeight: 590,borderRadius: 5 ,}} className="transitioned-card mx-auto">
+       <CardMedia
         sx={{ height: 180 }}
-        image="/static/cooperation-3.jpeg"
+        image="/static/cloud.jpeg"
         title="green iguana"
       />
       <CardContent  sx={{mx:2, mb:3}}>
-        <Typography gutterBottom variant="h5" component="div" className='font-serif font-medium text-blue'>
-          Web Development
+        <Typography gutterBottom variant="h5" component="div" className=' font-serif font-medium text-blue'>
+          Cloud
         </Typography>
         <Typography variant="body1" color="" className='font-sans'>
-          Lizards are a widespread group of squamate reptiles.
+          Lizards are a widespread group of squamate
+          
         </Typography>
       </CardContent>
       <CardActions  sx={{mx:2, mb:3}}>
@@ -95,45 +96,19 @@ const Numbers = () => {
     </Card>
         </Grid>
         <Grid item xs={12} md={6} lg={3}>
-            {/* <div className='rounded-xl bg-[#00000] pt-auto'>
-      <h2 className=" w-[22rem] font-medium text-gray-dark ">Let's see A'gency <span className='text-orange underline'>in numbers.</span></h2>
-      <div className='flex my-[2rem]'>
-      <div className='mr-[3rem] '>
-      <h1 className='text-orange'>50.4K</h1>
-      <p className='text-white'>Downloads</p>
-      </div>
-      <div>
-      <h1 className='text-orange'>23K</h1>
-      <p className='text-white'>Active users</p>
-      </div>
-      </div>
-      <div className='flex my-[2rem]'>
-      <div className='mr-[3rem]'>
-      <h1 className='text-orange'>440+</h1>
-      <p className='text-white'>User groups</p>
-      </div>
-      <div>
-      <h1 className='text-orange'>6K+</h1>
-      <p className='text-white'>Subscribers</p>
-      </div>
-      </div>
-    </div> */}
-
               
-<Card sx={{ maxWidth: 350,maxHeight: 590,  borderRadius: 5 ,}}  elevation={0} className="transitioned-card mx-auto">
-      <CardMedia
+<Card sx={{ maxWidth: 350,maxHeight: 590,  borderRadius: 5 ,}}  className="transitioned-card mx-auto">
+<CardMedia
         sx={{ height: 180 }}
-        
-        image="/static/cloud.jpeg"
+        image="/static/dev.jpg"
         title="green iguana"
       />
       <CardContent  sx={{mx:2, mb:3}}>
-        <Typography gutterBottom variant="h5" component="div" className=' font-serif font-medium text-blue'>
-          Cloud
+        <Typography gutterBottom variant="h5" component="div" className='font-serif font-medium text-blue'>
+          Web Development
         </Typography>
         <Typography variant="body1" color="" className='font-sans'>
-          Lizards are a widespread group of squamate reptiles
-          
+          Lizards are a widespread group of squamate
         </Typography>
       </CardContent>
       <CardActions  sx={{mx:2, mb:3}}>
@@ -142,7 +117,6 @@ const Numbers = () => {
       </CardActions>
     </Card>
             </Grid>
-
           </Grid>
           {/* <Link href="#" underline="none" className='text-3xl text-white  mb-[4rem] font-serif underline'>
           {'see all services'}

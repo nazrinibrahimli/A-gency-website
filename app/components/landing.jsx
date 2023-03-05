@@ -10,7 +10,7 @@ const LandingPage = () => {
   return (
     <div className='px-[15.5rem] py-[2.2rem] bg-gray-light h-[40rem] relative overflow-hidden rounded-bl-full  '>
       {/* <div className='w-[12rem] h-[12rem] bg-blue rounded-full absolute left-[-120px]'></div> */}
-      <h1 className=' w-[23rem] font-semibold'>Improve the way you charge, with only <span className='underline text-orange'>one click.</span></h1>
+      <h1 className=' w-[23rem] font-semibold'>Improve the way you charge, with only <span className=' text-orange'>one click.</span></h1>
       {/* <div className='w-[12rem] h-[12rem] bg-gray rounded-full absolute left-[-120px]'></div> */}
       <p className=' w-[26rem] my-[3rem]'>Lorem ipsum blazginf destkop and mobile applications, CEO, marketing, AI solutions, cybersecutity.</p>
       <Button variant="contained" className='font-sans bg-blue rounded-md mr-[1rem] h-[3rem] hover:bg-gray-dark'><AppleIcon sx={{mr:1}}/>  App store</Button>

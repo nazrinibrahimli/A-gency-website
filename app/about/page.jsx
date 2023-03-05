@@ -60,7 +60,7 @@ export default function About(){
 
 
             <div className='mt-[5rem] px-[4rem]'>
-            <h3 className='mb-[4rem] mt-[6rem] text-center text-3xl font-serif text-blue'>Some words from <span className='underline text-dark-orange'>our clients</span></h3>
+            <h3 className='mb-[4rem] mt-[6rem] text-center text-3xl font-serif text-blue'>Some words from our clients.</h3>
             <Box sx={{ flexGrow: 1 }} >
               <Grid container spacing={4}>
                 <Grid item xs={12} lg={4} sx={{justifyContent:"center", display:"flex"}}>
@@ -136,9 +136,36 @@ export default function About(){
 
           </Card> 
                   </Grid>
+
+
+
          
               </Grid>
             </Box>
+        {/* <div className='rounded-xl bg-[#00000] pt-auto'>
+        <h2 className=" w-[22rem] font-medium text-gray-dark ">Let's see A'gency <span className='text-orange underline'>in numbers.</span></h2>
+        <div className='flex my-[2rem]'>
+        <div className='mr-[3rem] '>
+        <h1 className='text-orange'>50.4K</h1>
+        <p className='text-white'>Downloads</p>
+        </div>
+        <div>
+        <h1 className='text-orange'>23K</h1>
+        <p className='text-white'>Active users</p>
+        </div>
+        </div>
+        <div className='flex my-[2rem]'>
+        <div className='mr-[3rem]'>
+        <h1 className='text-orange'>440+</h1>
+        <p className='text-white'>User groups</p>
+        </div>
+        <div>
+        <h1 className='text-orange'>6K+</h1>
+        <p className='text-white'>Subscribers</p>
+        </div>
+        </div> 
+    </div>  */}
+
 
 
 
