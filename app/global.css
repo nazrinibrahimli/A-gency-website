@@ -4,11 +4,26 @@
 
 
 @layer base {
+
     h1 {
-      @apply text-5xl;
+      @apply text-4xl;
+      @apply text-blue;
+      @apply font-serif;
     }
     h2 {
-      @apply text-4xl;
+      @apply text-3xl;
+      @apply text-gray-dark;
+      @apply font-serif;
+    
+    }
+    p{
+        @apply text-xl;
+        @apply font-sans;
+        @apply text-gray-dark;
+
+
+
+
     }
     /* ... */
   }
@@ -17,16 +32,28 @@
     .card {
       width: 25rem;
       height:20rem;
-      color:theme('colors.white');
-      background-color:theme('colors.orange');
+      color:theme('colors.blue');
+      /* background-color:theme('colors'); */
       border-radius: theme('borderRadius.4xl');
       padding: theme('spacing.6');
       box-shadow: theme('boxShadow.xl');
+      border-color:theme('colors.pink-dark');
     }
 
     .card:hover{
-        background-color:theme('colors.dark-orange');
+        background-color:theme('colors.gray-light');
+        
 
     }
+
+    .transitioned-card{
+      transition: margin-left 4s ease-in-out 1s;
+
+    }
+
+    .transitioned-card:hover{
+      transform: scale(1.1);
+    }
+
     /* ... */
 } 
