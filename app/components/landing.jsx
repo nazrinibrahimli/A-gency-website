@@ -15,7 +15,7 @@ const LandingPage = () => {
       <Button variant="outlined" className='font-sans rounded-md h-[3rem] border-[#252849] text-[#252849]'><AndroidIcon sx={{mr:1}}/> Play store</Button>
       <div className='md:w-[23rem] sm:w-[18rem] h-[18rem] md:h-[23rem] bg-blue rounded-full absolute sm:top-[18rem] md:top-[8rem] sm:right-[-12rem] md:right-[-12rem] lg:right-[-11.87rem] z-20 	'></div>
       <div className='md:w-[23rem] sm:w-[21rem] h-[21rem] md:h-[23rem] bg-gray rounded-full absolute sm:right-[-8rem] md:right-[-5rem]  z-10'></div>
-      <p className='text-[#252849] text-md my-[0.6rem] font-sans' >Different Platform?<Link href="#" underline="none" className='px-[0.4rem] font-sans text-blue font-bold underline'>
+      <p className='text-[#252849] text-md my-[0.6rem] font-sans' >Different Platform?<Link href="#" underline="none" className='px-[0.4rem] font-sans text-[#273444] font-bold underline'>
           {'Contact Us'}
         </Link> </p>
   
