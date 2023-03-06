@@ -64,7 +64,7 @@ export default function About(){
             <Box sx={{ flexGrow: 1 }} >
               <Grid container spacing={4}>
                 <Grid item xs={12} lg={4} sx={{justifyContent:"center", display:"flex"}}>
-                <Card sx={{ maxWidth: 345, height:600 }} className="card hovered">
+                <Card sx={{ maxWidth: 345}} className="card hovered">
             {/* <CardMedia
               component="img"
               alt="client"

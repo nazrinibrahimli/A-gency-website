@@ -25,7 +25,7 @@ const Numbers = () => {
           <h1 className='text-center text-gray-dark pt-[2rem] font-extralight'>The product we work with </h1>
           <Grid container spacing={2} className="py-[3.5rem]">
              <Grid item xs={12} lg={4} >
-            <Card className="mx-auto rounded-xl border-[0.1rem] shadow-none border-blue hover:border-orange py-[3rem]">
+            <Card className="mx-auto rounded-lg border-[0.1rem] shadow-none border-blue hover:border-orange py-[3rem]">
              <CardContent>
                 <CardMedia sx={{display: 'flex', alignItems: 'center', justifyContent:"center"}} >
                 <LiveHelpIcon sx={{fontSize:55,mb:3 }} style={{ color: "blue", }} />
@@ -41,7 +41,7 @@ const Numbers = () => {
            </Grid>
 
      <Grid item xs={12} lg={4}>
-    <Card  className="mx-auto rounded-xl border-[0.1rem] shadow-none border-orange hover:border-blue py-[3rem]">
+    <Card  className="mx-auto rounded-lg border-[0.1rem] shadow-none border-orange hover:border-blue py-[3rem]">
 
       <CardContent className='px-auto'>
       <CardMedia sx={{display: 'flex', alignItems: 'center', justifyContent:"center"}} >
@@ -64,7 +64,7 @@ const Numbers = () => {
 
 
         <Grid item xs={12} lg={4}>
-       <Card  className=" rounded-xl border-[0.1rem] shadow-none border-blue hover:border-orange py-[3rem]">
+       <Card  className=" rounded-lg border-[0.1rem] shadow-none border-blue hover:border-orange py-[3rem]">
 
       <CardContent >
       <CardMedia sx={{display: 'flex', alignItems: 'center', justifyContent:"center"}} >

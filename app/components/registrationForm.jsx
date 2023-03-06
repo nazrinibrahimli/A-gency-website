@@ -28,7 +28,7 @@ const RegistrationForm = () => {
           type="password"
           autoComplete="current-password"
         />
-        <Button variant="contained" className='mt-2 w-full flex font-sans bg-blue rounded-md h-[3rem] hover:bg-gray-dark shadow-none'>register now</Button>
+        <Button variant="contained" className='mt-2 w-full flex font-sans bg-[#252849] rounded-md h-[3rem] hover:bg-gray-dark shadow-none'>register now</Button>
       </FormControl>
     </div>
   )

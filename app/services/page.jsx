@@ -33,7 +33,7 @@ export default function Services(){
             <Box sx={{ flexGrow: 1 }} >
               <Grid container spacing={4}>
                 <Grid item sm={12} md={6} lg={3} sx={{justifyContent:"center", display:"flex"}}>
-                <Card sx={{ maxWidth: 345, height:600 }} className="card text-center">
+                <Card sx={{ maxWidth: 345}} className="card text-center rounded-xl">
                 <CardMedia sx={{display: 'flex', alignItems: 'center', justifyContent:"center"}} >
                     <SettingsOutlinedIcon sx={{fontSize:55,mb:3 }} style={{ color: "#273444", }} /></CardMedia>
                 <CardContent>
@@ -48,7 +48,7 @@ export default function Services(){
                 </Grid>
 
                    <Grid item sm={12} md={6} lg={3} sx={{justifyContent:"center", display:"flex"}} >
-                   <Card sx={{ maxWidth: 345 }} className="card text-center" >
+                   <Card sx={{ maxWidth: 345 }} className="card text-center rounded-xl" >
                       <CardMedia sx={{display: 'flex', alignItems: 'center', justifyContent:"center"}} >
                        <VpnLockOutlinedIcon sx={{fontSize:55,mb:3 }} style={{ color: "darkRed", }} /></CardMedia>
                       <CardContent>
@@ -62,7 +62,7 @@ export default function Services(){
                   </Card> 
                    </Grid>
                    <Grid item sm={12} md={6} lg={3} sx={{justifyContent:"center", display:"flex"}}>
-                   <Card sx={{ maxWidth: 345 }} className="card text-center">
+                   <Card sx={{ maxWidth: 345 }} className="card text-center rounded-xl">
                    <CardMedia sx={{display: 'flex', alignItems: 'center', justifyContent:"center"}} >
                     <SecurityUpdateGoodOutlinedIcon sx={{fontSize:55,mb:3 }} style={{ color: "darkGreen", }} /></CardMedia>
                       <CardContent >
@@ -77,7 +77,7 @@ export default function Services(){
                   </Grid>
 
                   <Grid item sm={12} md={6} lg={3} sx={{justifyContent:"center", display:"flex"}}>
-                   <Card sx={{ maxWidth: 345 }} className="card text-center">
+                   <Card sx={{ maxWidth: 345 }} className="card text-center rounded-xl">
                    <CardMedia sx={{display: 'flex', alignItems: 'center', justifyContent:"center"}} >
                     <TravelExploreOutlinedIcon sx={{fontSize:55,mb:3 }} style={{ color: "darkBlue", }} /></CardMedia>
                     <CardContent >
@@ -93,7 +93,7 @@ export default function Services(){
 
 
                   <Grid item sm={12} md={6} lg={3} sx={{justifyContent:"center", display:"flex"}}>
-                   <Card sx={{ maxWidth: 345 }} className="card text-center">
+                   <Card sx={{ maxWidth: 345 }} className="card text-center rounded-xl">
                    <CardMedia sx={{display: 'flex', alignItems: 'center', justifyContent:"center"}} >
                     <SettingsOutlinedIcon sx={{fontSize:55,mb:3 }} style={{ color: "#d45124", }} /></CardMedia>
                     <CardContent >
@@ -108,7 +108,7 @@ export default function Services(){
                   </Grid>
 
                   <Grid item sm={12} md={6} lg={3} sx={{justifyContent:"center", display:"flex"}}>
-                   <Card sx={{ maxWidth: 345 }} className="card text-center">
+                   <Card sx={{ maxWidth: 345 }} className="card text-center rounded-xl">
                    <CardMedia sx={{display: 'flex', alignItems: 'center', justifyContent:"center"}} >
                     <CloudDoneIcon sx={{fontSize:55,mb:3 }} style={{ color: "blue", }} /></CardMedia>
                     <CardContent >
@@ -123,7 +123,7 @@ export default function Services(){
                   </Grid>
 
                   <Grid item sm={12} md={6} lg={3} sx={{justifyContent:"center", display:"flex"}}>
-                   <Card sx={{ maxWidth: 345 }} className="card text-center">
+                   <Card sx={{ maxWidth: 345 }} className="card text-center rounded-xl">
                    <CardMedia sx={{display: 'flex', alignItems: 'center', justifyContent:"center"}} >
                     <VisibilityOutlinedIcon sx={{fontSize:55,mb:3 }} style={{ color: "orange", }} /></CardMedia>
                     <CardContent >
@@ -138,8 +138,8 @@ export default function Services(){
                   </Grid>
 
 
-                  <Grid item sm={12} md={6} lg={3} sx={{justifyContent:"center", display:"flex"}}>
-                   <Card sx={{ maxWidth: 345 }} className="card text-center">
+                  <Grid item sm={12} md={6} lg={3} sx={{justifyContent:"center ", display:"flex"}}>
+                   <Card sx={{ maxWidth: 345 }} className="card text-center rounded-xl">
                    <CardMedia sx={{display: 'flex', alignItems: 'center', justifyContent:"center"}} >
                     <RecordVoiceOverOutlinedIcon sx={{fontSize:55,mb:3 }}  style={{ color: "blue", }} /></CardMedia>
                     <CardContent >

@@ -122,7 +122,7 @@ const Numbers = () => {
           {'see all services'}
         </Link> */}
       {/* <Button variant="outlined" className='bg-white text-blue rounded-md mr-[1rem] h-[3rem] hover:bg-gray-dark'>see all</Button> */}
-      <Button variant="contained" className='mx-auto flex font-sans bg-blue rounded-md h-[3rem] hover:bg-gray-dark shadow-none'>
+      <Button variant="contained" className='mx-auto flex font-sans bg-[#252849] rounded-md h-[3rem] hover:bg-gray-dark shadow-none'>
       <Link href="services" underline="true" className='text-[white] font-sans'>{'See Services'}</Link></Button>
 
  
