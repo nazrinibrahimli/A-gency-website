@@ -25,6 +25,8 @@
 
 
     }
+
+
     /* ... */
   }
 
@@ -53,6 +55,15 @@
 
     .transitioned-card:hover{
       transform: scale(1.1);
+    }
+
+    .Button{
+      color: #000000;
+      background-color: theme('colors.blue');
+    }
+
+    .Link{
+      color:theme('colors.blue');
     }
 
     /* ... */
