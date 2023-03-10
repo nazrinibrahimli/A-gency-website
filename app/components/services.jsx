@@ -64,7 +64,7 @@ const Numbers = () => {
       <CardActions  sx={{mx:2, mb:3}}>
         {/* <Button size="small">Share</Button> */}
         {/* <Button size="" variant="outlined" className=' text-[white] bg-blue rounded-md mr-[1rem] h-[3rem] hover:bg-gray-dark'>Share</Button> */}
-        <Button size="small" className='font-sans text-blue'>Learn More</Button>
+        <Button size="small" className='font-sans text-blue'> <p className='text-blue'>Learn more</p></Button>
       </CardActions>
     </Card>
      </Grid>
@@ -91,7 +91,7 @@ const Numbers = () => {
       <CardActions  sx={{mx:2, mb:3}}>
         {/* <Button size="small">Share</Button> */}
         {/* <Button size="" variant="outlined" className=' text-[white] bg-blue rounded-md mr-[1rem] h-[3rem] hover:bg-gray-dark'>Share</Button> */}
-        <Button size="small" className='font-sans text-blue'>Learn More</Button>
+        <Button size="small" className='font-sans text-blue'> <p className='text-blue'>Learn more</p></Button>
       </CardActions>
     </Card>
         </Grid>
@@ -113,7 +113,7 @@ const Numbers = () => {
       </CardContent>
       <CardActions  sx={{mx:2, mb:3}}>
       {/* <Button size="" variant="outlined" className='text-[white] bg-blue rounded-md mr-[1rem] h-[3rem] hover:bg-gray-dark'>Share</Button> */}
-        <Button size="small" className='font-sans text-blue'>Learn More</Button>
+         <Button size="small" className='font-sans text-blue'> <p className='text-blue'>Learn more</p></Button>
       </CardActions>
     </Card>
             </Grid>
