@@ -12,11 +12,12 @@ const LandingPage = () => {
       <h1 className='lg:w-[23rem] font-semibold'>Improve the way you charge, with only <span className=' text-orange'>one click.</span></h1>
      
       <p className=' w-[26rem] my-[3rem]'>We specialize in destkop and mobile applications, CEO, marketing, AI solutions, cybersecutity.</p>
-     <div className="lg:flex sm:none">
-     <div><Button variant="contained" className='font-sans bg-[#252849]  rounded-md mr-[1rem] h-[3rem] hover:bg-gray-dark'><AppleIcon sx={{mr:1}}/>  App store</Button>
+      <div className="lg:flex sm:none">
+     <div className='w-[10.5rem] font-sans bg-[#252849]  rounded-md mr-[1rem] h-[3rem] hover:bg-gray-dark'>
+       <Button variant="contained" className='h-full w-full'><AppleIcon sx={{mr:1}}/>  App store</Button>
       </div>
-      <div>
-      <Button variant="outlined" className='sm:mt-[0.8rem] lg:mt-0 font-sans rounded-md h-[3rem] border-[#252849] text-[#252849]'><AndroidIcon sx={{mr:1}}/> Play store</Button>
+      <div className='w-[10.5rem] sm:mt-[0.8rem] lg:mt-0 font-sans rounded-md h-[3rem] border-[#252849] text-[#252849]'>
+      <Button variant="outlined" className='h-full w-full'><AndroidIcon sx={{mr:1}}/> Play store</Button>
       </div>
      </div>
 

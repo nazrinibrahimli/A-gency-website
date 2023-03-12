@@ -16,6 +16,9 @@
       @apply font-serif;
     
     }
+    h3{
+      @apply text-orange;
+    }
     p{
         @apply text-xl;
         @apply font-sans;
