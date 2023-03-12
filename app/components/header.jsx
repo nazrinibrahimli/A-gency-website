@@ -13,12 +13,10 @@ const Header = () => {
         </Link>Home </p>
 
         <p className='text-blue text-xl px-3 font-sans'>        <Link href="services" underline="none" className='text-xl text-[#273444]   px-3 font-sans'>
-          {'Services'}
-        </Link></p>
+        </Link>Services</p>
 
         <p className='text-blue text-xl px-3 font-sans'>        <Link href="about" underline="none" className='text-xl text-[#273444]   px-3 font-sans'>
-          {'About'}
-        </Link></p>
+        </Link>About</p>
 
         {/* <Link href="#" underline="none" className='text-2xl text-blue lowercase px-3 font-serif'>
           {'Our Project'}
