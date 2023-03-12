@@ -50,7 +50,7 @@ export default function Home() {
       <div className="flex justify-center items-center mb-[8rem]">
       <div className="lg:flex sm:none">
      <div className='w-[9.5rem] font-sans bg-[#252849]  rounded-md mr-[1rem] h-[3rem] hover:bg-gray-dark'>
-       <Button variant="contained" className='font-sans bg-[#252849]  rounded-md mr-[1rem] h-[3rem] hover:bg-gray-dark'><AppleIcon sx={{mr:1}}/>  App store</Button>
+       <Button variant="contained" className=''><AppleIcon sx={{mr:1}}/>  App store</Button>
       </div>
       <div className='w-[9.5rem] sm:mt-[0.8rem] lg:mt-0 font-sans rounded-md h-[3rem] border-[#252849] text-[#252849]'>
       <Button variant="outlined" className=''><AndroidIcon sx={{mr:1}}/> Play store</Button>
