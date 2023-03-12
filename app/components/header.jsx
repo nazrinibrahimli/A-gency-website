@@ -9,15 +9,14 @@ const Header = () => {
       <h2 className='font-serif text-bold px-[2.2rem] z-20'> <span className='text-white'>A'</span>gency</h2>
       <div className='w-[13rem] h-[13rem] bg-blue rounded-full absolute left-[-6rem] top-[-9rem] z-10'></div> 
       <nav className='ml-auto  flex'>
-        <p className='text-blue'><Link href="/" underline="none" className='text-xl text-[#273444]  px-3 font-sans'>
-          {'Home'}
-        </Link></p>
+        <p className='text-blue text-xl px-3 font-sans'><Link href="/" underline="none" className=''>
+        </Link>Home </p>
 
-        <p className='text-blue'>        <Link href="services" underline="none" className='text-xl text-[#273444]   px-3 font-sans'>
+        <p className='text-blue text-xl px-3 font-sans'>        <Link href="services" underline="none" className='text-xl text-[#273444]   px-3 font-sans'>
           {'Services'}
         </Link></p>
 
-        <p className='text-blue'>        <Link href="about" underline="none" className='text-xl text-[#273444]   px-3 font-sans'>
+        <p className='text-blue text-xl px-3 font-sans'>        <Link href="about" underline="none" className='text-xl text-[#273444]   px-3 font-sans'>
           {'About'}
         </Link></p>
 
