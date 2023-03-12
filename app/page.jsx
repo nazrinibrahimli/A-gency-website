@@ -52,8 +52,8 @@ export default function Home() {
      <div className='w-[10.5rem] font-sans bg-[#252849]  text-[white] rounded-md mr-[1rem] h-[3rem] '>
        <Button variant="" className='h-full w-full'><AppleIcon sx={{mr:1}}/>  App store</Button>
       </div>
-      <div className='w-[10.5rem] sm:mt-[0.8rem] lg:mt-0 font-sans rounded-md h-[3rem] border-[#252849] text-[#252849]'>
-      <Button variant="outlined" className='h-full w-full border-[#252849] text-[#252849] '><AndroidIcon sx={{mr:1}}/> Play store</Button>
+      <div className='w-[10.5rem] sm:mt-[0.8rem] lg:mt-0 font-sans rounded-md h-[3rem] border-[#252849] border-[1px] text-[#252849]'>
+      <Button variant="" className='h-full w-full'><AndroidIcon sx={{mr:1}}/> Play store</Button>
       </div>
      </div>
       </div>
