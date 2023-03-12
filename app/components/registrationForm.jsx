@@ -12,6 +12,7 @@ const RegistrationForm = () => {
           label="Full Name"
           type="text"
           autoComplete="current-password"
+          className='mb-2'
         />
         <TextField
           required
@@ -19,7 +20,7 @@ const RegistrationForm = () => {
           label="Email"
           type="text"
           autoComplete="current-password"
-          className='my-2'
+          className='mb-2'
         />
         <TextField
           required
