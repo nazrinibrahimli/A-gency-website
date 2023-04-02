@@ -9,12 +9,12 @@ const Header = () => {
       <h2 className='font-serif text-bold px-[2.2rem] z-20'> <span className='text-white'>A'</span>gency</h2>
       <div className='w-[13rem] h-[13rem] bg-blue rounded-full absolute left-[-6rem] top-[-9rem] z-10'></div> 
       <nav className='ml-auto  flex'>
-<Link href="/" underline="none" className='text-xl text-[#273444]   px-3 font-sans hover:text-blue'>Home
+<Link href="/" underline="none" className='text-xl text-blue   px-3 font-sans hover:text-blue'>Home
         </Link>
 
-  <Link href="services" underline="none" className='text-xl text-[#273444]   px-3 font-sans hover:text-blue'>
+  <Link href="services" underline="none" className='text-xl text-blue   px-3 font-sans hover:text-blue'>
   Services  </Link>
-<Link href="about" underline="none" className='text-xl text-[#273444]   px-3 font-sans hover:text-blue'>
+<Link href="about" underline="none" className='text-xl text-blue  px-3 font-sans hover:text-blue'>
 About    </Link>
 
         {/* <Link href="#" underline="none" className='text-2xl text-blue lowercase px-3 font-serif'>
