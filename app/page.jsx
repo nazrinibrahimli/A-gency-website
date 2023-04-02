@@ -18,8 +18,8 @@ import AppleIcon from '@mui/icons-material/Apple';
 import AndroidIcon from '@mui/icons-material/Android';
 
 
-
 export default function Home() {
+
   return (
     <main >
       <LandingPage className="relative "/>
@@ -57,6 +57,7 @@ export default function Home() {
       </div>
      </div>
       </div>
+
       </main>
   )
 }
