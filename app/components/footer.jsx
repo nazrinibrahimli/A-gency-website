@@ -24,7 +24,6 @@ const Footer = () => {
           <li className="text-[white] py-2 sm:text-sm md:text-base">Investing</li>
           <li className="text-[white] py-2 sm:text-sm md:text-base">Insurance</li>
           <li className="text-[white] py-2 sm:text-sm md:text-base">Savings</li>
-          <li className="text-[white] py-2 sm:text-sm md:text-base">Apps</li>
         </ul>
         </Grid>
 
@@ -34,7 +33,6 @@ const Footer = () => {
           <li className="text-[white] py-2 sm:text-sm md:text-base">Instant access</li>
           <li className="text-[white] py-2 sm:text-sm md:text-base">Finance education</li>
           <li className="text-[white] py-2 sm:text-sm md:text-base">Apps & integrations</li>
-          <li className="text-[white] py-2 sm:text-sm md:text-base">Budgeting</li>
         </ul>
         </Grid>
 
@@ -44,7 +42,6 @@ const Footer = () => {
           <li className="text-[white] py-2 sm:text-sm md:text-base">About us</li>
           <li className="text-[white] py-2 sm:text-sm md:text-base">Contact</li>
           <li className="text-[white] py-2 sm:text-sm md:text-base">Career</li>
-          <li className="text-[white] py-2 sm:text-sm md:text-base">FAQ</li>
         </ul>
         </Grid>
         </Grid>
