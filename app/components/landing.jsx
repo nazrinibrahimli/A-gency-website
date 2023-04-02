@@ -8,7 +8,7 @@ import AppleIcon from '@mui/icons-material/Apple';
 import AndroidIcon from '@mui/icons-material/Android';
 const LandingPage = () => {
   return (
-    <div className='lg:px-[15.5rem] sm:pr-[8rem] sm:pl-[12rem] py-[2.2rem] bg-gray-light h-[43rem] relative overflow-hidden rounded-bl-full  '>
+    <div className='lg:px-[9.5rem] sm:pr-[8rem] sm:pl-[8rem] py-[1.8rem] bg-gray-light h-[43rem] relative overflow-hidden rounded-bl-full  '>
       <h1 className='lg:w-[23rem] font-semibold'>Improve the way you charge, with only <span className=' text-orange'>one click.</span></h1>
      
       <p className=' w-[26rem] my-[3rem]'>We specialize in destkop and mobile applications, CEO, marketing, AI solutions, cybersecutity.</p>
