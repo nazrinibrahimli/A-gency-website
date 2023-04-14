@@ -11,7 +11,7 @@ const cto = (props) => {
                     <img src={props.icon}/>
                   <h1 className='text-[white] '>{props.title}</h1>
                     <Button size="large" variant='outlined' className='mt-[2rem] font-sans rounded-sm border-5	border-[white]'>
-                    <p className='text-[white] text-[1rem]'>{props.cto}</p>                   
+                    <p className='text-[white] text-[0.8rem]'>{props.cto}</p>                   
                      </Button>
               </Grid>
     </div>
