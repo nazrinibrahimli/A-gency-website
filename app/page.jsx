@@ -4,7 +4,8 @@ import Button from '@mui/material/Button';
 import Link from '@mui/material/Link';
 import Image from 'next/image';
 import LandingPage from './components/landing';
-import Numbers from './components/services';
+import Numbers from './components/singleService';
+import Cto from './components/cto';
 import microsoft from 'public/static/microsoft.webp';
 import dropbox from 'public/static/dropbox.png';
 import slack from 'public/static/slack.png';
@@ -16,7 +17,7 @@ import {Box,Grid} from '@mui/material';
 import Register from './components/register'
 import AppleIcon from '@mui/icons-material/Apple';
 import AndroidIcon from '@mui/icons-material/Android';
-
+import WorkIcon from '@mui/icons-material/Work';
 
 export default function Home() {
 
@@ -40,8 +41,25 @@ export default function Home() {
       </Grid>
       </Box>
       </div>
-      <Numbers/>
-      <h3 className='mt-[7rem] text-center text-3xl font-serif'>Get your business to <span className='text-orange'> professional level</span> with A'gency.io. </h3>
+
+      <h1 className='text-center text-gray-dark  pt-[5rem] mb-[2rem] font-extralight'> <span className='text-orange'>Services</span> we provide</h1>
+      <Grid container spacing={2} className="py-[3.5rem]">
+      <Numbers image={"/static/app.jpg"} title="E-commerce Development" info="Whatever your business needs are, we can build it. We design our e-commerce pages to meet your KPIs, whether you are looking for bottom line revenue optimization, better conversion rates or an effective customer acquisition strategy."/>
+      <Numbers image={"/static/web.jpg"} title="Web Development" info="Your one stop shop for front and back end web development is with us. Our front end caters to an intuitive customer experience while our backend ensures optimal performance, keeping functionality and uptime consistent with elite market standards." />
+      <Numbers  image={"/static/cooperation-3.jpeg"} title="App Development" info="When it comes to iOS or Android development, we believe developing native to each OS is the only approach. This allows us to natively integrate into each specific OS, giving the end-user a superior experience, but also providing a more stable, refined final product." />
+      <Numbers image={"/static/cooperation-1.jpeg"} title="Content Management Systems" info="Our CMS platforms are custom designed and developed to fully integrate into your business, enhance business flows and catered to meet your business needs. We can easily develop a custom admin panel to control and manage all aspects of your online business." />
+      </Grid>
+      <Box sx={{ flexGrow: 1 }}>
+      <Grid container  className="bg-blue w-full h-[20rem]">
+        <Grid item xs={12} md={6} lg={6} sx={{display:"flex", alignItems:"center", justifyContent:"center", borderRight:3, borderColor:"white"}}>
+        <Cto title="Our Capabilities" cto="explore our services" />
+        </Grid>
+        <Grid item xs={12} md={6} lg={6} sx={{display:"flex", alignItems:"center", justifyContent:"center"}}>
+        <Cto title="Our Featured Work" cto="take a look"/>
+        </Grid>
+      </Grid>
+      </Box>
+       <h3 className='mt-[7rem] text-center text-3xl font-serif'>Get your business to <span className='text-orange'> professional level</span> with A'gency.io. </h3>
       <Features/>
       <h3 className='mt-[7rem] text-center text-3xl font-serif'>Our company will help you to <span className='text-orange'>achieve everything</span> you imagine.</h3>
       <Register/>
