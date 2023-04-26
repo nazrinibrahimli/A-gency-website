@@ -5,16 +5,18 @@ import Button from '@mui/material/Button';
 const Header = () => {
   return (
     <div>
-      <header className='flex p-[1.3rem] bg-[#131214] overflow-hidden relative'>
+      <header className='flex p-[1.3rem] bg-blue overflow-hidden relative'>
       <h2 className='font-serif text-bold text-white px-[2.2rem]'>A'gency</h2>
       <nav className='ml-auto  flex'>
-<Link href="/" underline="none" className='text-lg text-white   px-3 font-sans hover:text-white'>Home
-        </Link>
+<Link href="/" underline="none" className='text-lg text-white   px-3 font-sans'>
+  <p className='text-white font-sans'>Home</p></Link>
 
-  <Link href="services" underline="none" className='text-lg text-white   px-3 font-sans hover:text-white'>
-  Services  </Link>
-<Link href="about" underline="none" className='text-lg text-white  px-3 font-sans hover:text-white'>
-About    </Link>
+  <Link href="services" underline="none" className='text-lg text-white   px-3 font-sans '>
+  <p className='text-white font-sans'>Services</p></Link>
+
+<Link href="about" underline="none" className='text-lg text-black  px-3 font-sans '>
+<p className='text-white font-sans' >About</p></Link>
+
 
         {/* <Link href="#" underline="none" className='text-2xl text-blue lowercase px-3 font-serif'>
           {'Our Project'}
