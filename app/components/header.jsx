@@ -5,16 +5,15 @@ import Button from '@mui/material/Button';
 const Header = () => {
   return (
     <div>
-      <header className='flex p-[1rem] bg-gray-light overflow-hidden relative'>
-      <h2 className='font-serif text-bold px-[2.2rem] z-20'> <span className='text-white'>A'</span>gency</h2>
-      <div className='w-[13rem] h-[13rem] bg-blue rounded-full absolute left-[-6rem] top-[-9rem] z-10'></div> 
+      <header className='flex p-[1.3rem] bg-[#131214] overflow-hidden relative'>
+      <h2 className='font-serif text-bold text-white px-[2.2rem]'>A'gency</h2>
       <nav className='ml-auto  flex'>
-<Link href="/" underline="none" className='text-xl text-blue   px-3 font-sans hover:text-blue'>Home
+<Link href="/" underline="none" className='text-lg text-white   px-3 font-sans hover:text-white'>Home
         </Link>
 
-  <Link href="services" underline="none" className='text-xl text-blue   px-3 font-sans hover:text-blue'>
+  <Link href="services" underline="none" className='text-lg text-white   px-3 font-sans hover:text-white'>
   Services  </Link>
-<Link href="about" underline="none" className='text-xl text-blue  px-3 font-sans hover:text-blue'>
+<Link href="about" underline="none" className='text-lg text-white  px-3 font-sans hover:text-white'>
 About    </Link>
 
         {/* <Link href="#" underline="none" className='text-2xl text-blue lowercase px-3 font-serif'>

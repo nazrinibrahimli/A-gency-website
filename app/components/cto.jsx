@@ -10,9 +10,9 @@ const cto = (props) => {
               <Grid item xs={12} md={12} lg={12} sx={{textAlign:'center',}}  >
                     <img src={props.icon}/>
                   <h1 className='text-[white] '>{props.title}</h1>
-                  <div className='mt-[2rem] px-auto font-sans rounded-sm h-[3rem] border-[white] border-[1px] text-[white]'>
-                    <Button className=''>
-                    <p className='text-[white] text-[0.8rem] text-center'>{props.cto}</p>                   
+                  <div className='hover:bg-[#71bd84] mx-auto w-[14rem] mt-[2rem] px-auto font-sans rounded-sm h-[3rem] border-[white] border-[1px] text-[white]'>
+                    <Button className='w-full h-full '>
+                    <p className='text-[white] text-[1rem] text-center lowercase'>{props.cto}</p>                   
                      </Button>
                     </div> 
               </Grid>

@@ -20,13 +20,13 @@ const Numbers = (props) => {
         <Box sx={{ flexGrow: 1 }} className="mx-[2rem]">
             
       <Grid item xs={12} md={12} lg={12} sx={{mb:8}}>
-       <Card  sx={{ maxWidth: 550,maxHeight: 600, borderRadius: 0 , borderColor: 'white', boxShadow:0 }}  className="mx-auto">
+       <Card  sx={{ maxWidth: 550,maxHeight: 600, borderRadius: 0 , borderColor: 'white', boxShadow:0 ,}}  className="mx-auto">
       <CardMedia
         sx={{ height: 320 }}
         image={props.image}
         title="image"
       />
-      <CardContent sx={{mb:3}}>
+      <CardContent sx={{mb:3, paddingLeft:0}}>
         <Typography gutterBottom variant="h4" component="div" className='font-serif font-medium text-blue'>
           {props.title}
         </Typography>
@@ -34,8 +34,8 @@ const Numbers = (props) => {
           {props.info}
         </Typography>
       </CardContent>
-      <CardActions sx={{mx:1, mb:3}}>
-       <Button size="large" variant='outlined' className='font-sans rounded-sm border-3	border-black'> <p className='text-blue text-base'>Learn More</p> </Button>
+      <CardActions sx={{ mb:3, paddingLeft:0}}>
+       <Button size="large" variant='outlined' className='hover:text-[white] hover:bg-blue hover:border-blue bg-[#71bd84] font-sans rounded-sm border-3 text-[white] w-[10.5rem] h-[3rem]	border-[#71bd84]'> <p className='text-[white] lowercase text-base'>Learn More</p> </Button>
       </CardActions>
     </Card>
         </Grid>
