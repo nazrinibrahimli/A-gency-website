@@ -35,7 +35,7 @@ const Numbers = (props) => {
         </Typography>
       </CardContent>
       <CardActions sx={{ mb:3, paddingLeft:0}}>
-       <Button size="large" variant='outlined' className='hover:text-[white] hover:bg-blue hover:border-blue bg-[#71bd84] font-sans rounded-sm border-3 text-[white] w-[10.5rem] h-[3rem]	border-[#71bd84]'> <p className='text-[white] lowercase text-base'>Learn More</p> </Button>
+       <button size="large" variant='outlined' className='hover:text-[white] hover:bg-blue hover:border-blue bg-[#71bd84] font-sans rounded-sm border-3 text-[white] w-[10.5rem] h-[3rem]	border-[#71bd84]'> <p className='text-[white] lowercase text-base'>Learn More</p> </button>
       </CardActions>
     </Card>
         </Grid>
