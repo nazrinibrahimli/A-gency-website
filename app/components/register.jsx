@@ -9,11 +9,11 @@ import AddIcCallSharpIcon from '@mui/icons-material/AddIcCallSharp';
 import RegistrationForm from './registrationForm';
 const register = () => {
   return (
-    <div className='relative overflow-hidden  mt-[4rem] mx-[4rem] lg:mx-[8rem] py-[4rem] mb-[8rem] rounded-xl  bg-[url("../public/static/team2.jpg")] bg-center bg-cover '>
+    <div className='relative overflow-hidden  mt-[4rem]  py-[8rem] mb-[8rem]  bg-[url("../public/static/team2.jpg")] bg-center bg-cover '>
        <Box>
          <Grid container>
            <Grid item md={12} lg={6} className="">
-              <h1 className='text-center font-medium text-white py-[5rem] px-[3rem]'>We are here to help you grow your business</h1>
+              <h1 className='text-center text-2xl lg:text-4xl font-medium text-white py-[5rem] px-[3rem]'>We are here to help you grow your business. Join thousand of happy customers.</h1>
            </Grid>
            <Grid item md={12} lg={6} className="mx-auto flex justify-center items-center"  >
               <RegistrationForm/>

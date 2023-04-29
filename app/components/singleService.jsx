@@ -17,25 +17,30 @@ import Link from '@mui/material/Link';
 
 const Numbers = (props) => {
   return (
-        <Box sx={{ flexGrow: 1 }} className="mx-[2rem]">
+        <Box sx={{ flexGrow: 1 }} className="mx-[2rem] ">
             
-      <Grid item xs={12} md={12} lg={12} sx={{mb:8}}>
-       <Card  sx={{ maxWidth: 550,maxHeight: 600, borderRadius: 0 , borderColor: 'white', boxShadow:0 ,}}  className="mx-auto">
-      <CardMedia
-        sx={{ height: 320 }}
+      <Grid item xs={12} md={12} lg={12} sx={{marginBottom: "6rem"}}>
+       <Card  sx={{ maxWidth: 550,maxHeight: 700, borderRadius: 0 , borderColor: 'white', boxShadow:0 ,}}  className="mx-auto">
+     <div className='h-[320px]  overflow-hidden'>
+     <CardMedia
+        sx={{   }}
         image={props.image}
         title="image"
+        className=" h-full hover:scale-110 duration-200"
       />
+     </div>
+
+
       <CardContent sx={{mb:3, paddingLeft:0}}>
-        <Typography gutterBottom variant="h4" component="div" className='font-serif font-medium text-blue'>
+        <Typography gutterBottom variant="" component="div" className='font-serif text-2xl text-blue'>
           {props.title}
         </Typography>
-        <Typography variant="body1" color="" className='font-sans'>
+        <Typography variant="" color="" className='font-sans text-gray-dark font-light text-base'>
           {props.info}
         </Typography>
       </CardContent>
-      <CardActions sx={{ mb:3, paddingLeft:0}}>
-       <button size="large" variant='outlined' className='hover:text-[white] hover:bg-blue hover:border-blue bg-[#71bd84] font-sans rounded-sm border-3 text-[white] w-[10.5rem] h-[3rem]	border-[#71bd84]'> <p className='text-[white] lowercase text-base'>Learn More</p> </button>
+      <CardActions sx={{ paddingLeft:0}}>
+       <button size="large" variant='outlined' className='hover:text-[white] hover:bg-blue hover:border-blue bg-[#71bd84] font-sans rounded-sm border-3 text-[white] w-[10.5rem] h-[3rem]	border-[#71bd84]'> <p className='text-[white]  text-base'>Learn More</p> </button>
       </CardActions>
     </Card>
         </Grid>

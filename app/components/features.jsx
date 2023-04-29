@@ -21,36 +21,48 @@ import { spacing } from '@mui/system';
 
 const Numbers = () => {
   return (
-        <Box sx={{ flexGrow: 1 }} className="mt-[4rem] lg:mx-[8rem] px-[1rem]  md:px-[5rem] py-[3rem] rounded-xl  bg-[#f5f6f7] ">
-          <h1 className='text-center text-gray-dark pt-[2rem] font-extralight'>The product we work with </h1>
+        <Box sx={{ flexGrow: 1 }} className=" px-[1rem]  md:px-[5rem]  rounded-xl  bg-white ">
+          <h2 className='text-center text-gray-dark pt-[2rem] font-extralight'>The product we work with </h2>
+
+
+
+          
           <Grid container spacing={2} className="py-[3.5rem]">
              <Grid item xs={12} lg={4} >
-            <Card className="mx-auto rounded-lg border-[0.1rem] shadow-none border-blue hover:border-orange py-[3rem]">
+            <Card className="mx-auto rounded-sm  shadow-none border-blue hover:border-orange py-[3rem]">
              <CardContent>
                 <CardMedia sx={{display: 'flex', alignItems: 'center', justifyContent:"center"}} >
-                <LiveHelpIcon sx={{fontSize:55,mb:3 }} style={{ color: "blue", }} />
+                <LiveHelpIcon sx={{fontSize:65,mb:3,p:2 }} style={{ color: "white", backgroundColor: "", borderRadius:100}} className="bg-[#50C878]	hover:bg-gray-dark"/>
               </CardMedia>
               <Typography gutterBottom variant="h5" component="div" className='font-serif text-center text-blue'>
                 24/7 Support
               </Typography>
-              <Typography variant="body1" color="" className='font-sans text-center'>
+              <Typography variant="body1" color="" className='font-sans text-center text-gray-dark px-[3rem]'>
               A'gency provides 24/7 support to all customers all around the world! 
                     </Typography>
             </CardContent>
             </Card>
            </Grid>
 
+
+
+
+
+
+
      <Grid item xs={12} lg={4}>
-    <Card  className="mx-auto rounded-lg border-[0.1rem] shadow-none border-orange hover:border-blue py-[3rem]">
+    <Card  className="mx-auto rounded-sm  shadow-none border-orange hover:border-blue py-[3rem]">
 
       <CardContent className='px-auto'>
+
+        
       <CardMedia sx={{display: 'flex', alignItems: 'center', justifyContent:"center"}} >
-      <EnhancedEncryptionIcon sx={{ fontSize: 55,mb:3 }} className=' ' style={{ color: "red" }}/>
+      <EnhancedEncryptionIcon sx={{ fontSize: 65,mb:3,p:2 }}className="bg-[#50C878]	hover:bg-gray-dark" style={{ color: "white", backgroundColor: "", borderRadius:100 }} />
       </CardMedia>
         <Typography gutterBottom variant="h5" component="div" className='text-center font-serif text-blue'>
             Secure & Fast
         </Typography>
-        <Typography variant="body1" color="" className='font-sans text-center'>
+        <Typography variant="body1" color="" className='font-sans text-center text-gray-dark px-[3rem]'>
           We enable our customers to work with secure and fast platforms. 
           
         </Typography>
@@ -64,16 +76,17 @@ const Numbers = () => {
 
 
         <Grid item xs={12} lg={4}>
-       <Card  className=" rounded-lg border-[0.1rem] shadow-none border-blue hover:border-orange py-[3rem]">
+       <Card  className=" rounded-sm  shadow-none border-blue hover:border-orange py-[3rem]">
 
       <CardContent >
       <CardMedia sx={{display: 'flex', alignItems: 'center', justifyContent:"center"}} >
-        <MobileFriendlyIcon sx={{ fontSize:55,mb:3, }} style={{ color: "green" }}/>
+
+        <MobileFriendlyIcon sx={{ fontSize:65,mb:3,p:2 }} style={{ color: "white", backgroundColor: "", borderRadius:100 }} className="bg-[#50C878]	hover:bg-gray-dark"/>
         </CardMedia>
         <Typography gutterBottom variant="h5" component="div" className='font-serif text-center text-blue'>
           Easy Interface
         </Typography>
-        <Typography variant="body1" color="" className='font-sans text-center'>
+        <Typography variant="body1" color="" className='font-sans text-center text-gray-dark px-[3rem]'>
         We appriciate our customers and provide them fully responsive apps.      
         </Typography>
       </CardContent>

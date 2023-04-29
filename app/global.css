@@ -20,11 +20,10 @@
       @apply text-blue;
     }
     p{
-        @apply text-xl;
+        @apply text-base;
         @apply font-sans;
         @apply text-gray-dark;
-
-
+        @apply font-light;
 
 
     }
@@ -68,6 +67,11 @@
     .Link{
       color:theme('colors.blue');
     }
+    .parent[data-isOpen="true"] {
+      width: 400px;
+      height: 200px;
+    }
+
 
     /* ... */
 } 

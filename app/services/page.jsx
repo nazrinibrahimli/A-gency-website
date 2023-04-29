@@ -23,17 +23,38 @@ import RecordVoiceOverOutlinedIcon from '@mui/icons-material/RecordVoiceOverOutl
 import VisibilityOutlinedIcon from '@mui/icons-material/VisibilityOutlined';
 import CloudDoneIcon from '@mui/icons-material/CloudDone';
 import * as React from 'react';
+import Cto from '../components/cto';
+
 import { display, spacing } from '@mui/system';
 
 export default function Services(){
     return(
-        <div className='bg-[#f0f0f5] pb-[8rem]'>
-          <h1 className='mb-[4rem] pt-[2rem] text-center'>Our Services</h1>
-            <div className='mt-[5rem] px-[4rem] bg-[#f0f0f5] '>
+        <div className='bg-[#f6fbf7] pb-[8rem] '>
+      <h1 className='text-center text-gray-dark  pt-[5rem] mb-[2rem] font-extralight capitalize'>Why to choose our services?</h1>
+
+     <Box sx={{ flexGrow: 1, margin:"2rem" }}>
+      <Grid container  className=" w-full  px-[5rem] ">
+        <Grid item xs={12} md={6} lg={6} sx={{padding:"3rem 4rem 8rem",backgroundColor: "#273444", }} className=" ">
+        <Cto title="Our Software is Quick, Lean, and Market-Focused." cto="explore our services" className=""/>
+        </Grid>
+        <Grid item xs={12} md={6} lg={6} sx={{ padding:"3rem 3rem 8rem",backgroundColor: "",}} className=" bg-[url('../public/static/team3.jpg')] bg-cover bg-n0-repeat text-gray-dark">
+        <Cto title="Companies choose us to work with!" cto="take a look" />
+        
+        </Grid>
+      </Grid>
+      </Box>
+
+
+
+
+
+
+          <h1 className='mb-[4rem] mt-[2rem] text-center'>Our Services</h1>
+            <div className='mt-[5rem] px-[4rem] bg-[#f6fbf7] '>
             <Box sx={{ flexGrow: 1 }} >
               <Grid container spacing={4}>
-                <Grid item sm={12} md={6} lg={3} sx={{justifyContent:"center", display:"flex"}}>
-                <Card sx={{ maxWidth: 345}} className="card text-center rounded-xl">
+                <Grid item sm={12} md={6} lg={3} sx={{justifyContent:"center", display:"flex",}} >
+                <Card sx={{ maxWidth: 345}} className="card text-center rounded-xl  bg-cover bg-center " >
                 <CardMedia sx={{display: 'flex', alignItems: 'center', justifyContent:"center"}} >
                     <SettingsOutlinedIcon sx={{fontSize:55,mb:3 }} style={{ color: "#273444", }} /></CardMedia>
                 <CardContent>
