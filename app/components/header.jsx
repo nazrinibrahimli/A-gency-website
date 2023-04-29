@@ -5,16 +5,16 @@ import Button from '@mui/material/Button';
 const Header = () => {
   return (
     <div>
-      <header className='flex p-[1rem]  bg-[#f6fbf7] overflow-hidden relative'>
-      <h2 className='font-serif font-light text-gray-dark py-[0.5rem] px-[2rem] italic '>A'gency</h2>
+      <header className='flex p-[1rem]  bg-blue overflow-hidden relative'>
+      <h2 className='font-serif font-light text-white py-[0.5rem] px-[2rem]  '>A'gency</h2>
       <nav className='ml-auto  flex'>
 <Link href="/" underline="none" className='text-blue   px-3 font-sans flex justify-center items-center'>
-  <p className='text-black font-sans text-2xl'>Home</p></Link>
+  <p className='text-white font-sans text-2xl'>Home</p></Link>
 
   <Link href="about" underline="none" className=' text-black  px-3 font-sans flex justify-center items-center'>
-<p className='text-black font-sans text-2xl' >About</p></Link>
+<p className='text-white font-sans text-2xl' >About</p></Link>
   <Link href="services" underline="none" className='text-blue   px-3 font-sans flex justify-center items-center'>
-  <p className='text-black font-sans text-2xl'>Services</p></Link>
+  <p className='text-white font-sans text-2xl'>Services</p></Link>
 
 
 
